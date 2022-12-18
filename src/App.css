@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.App {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.board {
+    min-width: 400px;
+    min-height: 200px;
+    padding: 20px 10px;
+    border: 5px solid darkgray;
+    border-radius: 12px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.board__title {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.item {
+    width: 100%;
+    border: 2px solid plum;
+    border-radius: 6px;
+    margin: 5px 0;
+    padding: 5px;
+    background-color: antiquewhite;
+    cursor: grab;
+}
